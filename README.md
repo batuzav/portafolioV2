@@ -1,68 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ...[Portafolio Pedro Batuza]...
 
-## Available Scripts
+Repositorio del portafolio de Pedro.
 
-In the project directory, you can run:
+## Contenido
 
-### `yarn start`
+pagina web, resumen de experiencia laboral y proyectos:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [React](https://es.reactjs.org/)
+- [Sass](https://sass-lang.com/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+  **Página sin conecxión a base de datos**
 
-### `yarn test`
+## Programas necesarios
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para poder utilizar el proyecto en localhost en necesario clonarlo y tener algunos programas necesarios:
 
-### `yarn build`
+- [Nodejs](https://nodejs.org/es/download/) v12.18.0 o Superior.
+- IDE de desarrollo de tu comodidad Ej. [VS Code](https://code.visualstudio.com/download)
+- [Git](https://git-scm.com/downloads) para poder gestionar las versiones.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Como Clonar
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Comando para clonar:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+cd existing_folder
+git clone https://github.com/batuzav/portafolioV2.git
 
-### `yarn eject`
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Intalación
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Ya clonado el proyecto es necesario instalar todas las dependencias con el comando:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+npm install
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Run en LocalHost:
 
-## Learn More
+Ejecutar el comando:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Subir cambios
 
-### Code Splitting
+Para poder subir cambios al repositorio es necesario utilizar los siguientes comandos.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+`git add .` o si lo prefiere `git add "./direction_file"`
 
-### Analyzing the Bundle Size
+```bash
+git commit -m "tu mensaje"
+git push origin master
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+o si usted se encuentra en otro branch
 
-### Making a Progressive Web App
+```bash
+git push origin "your_branch"
+```
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+##Como hacer un buen commit
 
-### Advanced Configuration
+Cada cada commit deberá de llevar alguna bandersa que distinga lo que se realizo en el commit. Debe utilizarse las siguientes banderas.
+Es recomendado utilizar un icono como referencia visual de la bandera que se esa utilizando.
+Ejemplo de banderas.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- `f.-` **feat**: Ha añadido una nueva freature (modulo, o la salida completa de una característica)
+- `F.-` **fix**: Ha realizado un cambio que repará un Bug
+- `d.-` **docs**: Ha realizado cambios en la
+- `s.-` **style**: Ha realizado cambios que representen estilos
+- `r.-` **refactor**:Ha realizado cambios de codigo que no corrigieron ningún Bug o añadieron una feature
+- `t.-` **test**: Todo a aquel cambio que sea modo de prueba
+- `c.-` **chore**: Ha actualizado un tarea contruida previamneto, configuracion en el package manager, etc.
 
-### Deployment
+Ejemplos de iconos:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+    - ➕ `:heavy_plus_sign:` Cuando se añade un archivo o se implementa un feature
+    - 🔨 `:hammer:` Cuando se soluciona un Bug o un Issue
+    - 💚 `:green_heart:` Cuando se mejora un codigo o comentarios
+    - ⚡ `:zap`` Cuando se mejora el rendimiento
+    - 📜 `:scroll:` Cuando se actualiza documentos o el readme
+    - 🔑 `:key:` Cuando se trata de un cambio relacionado con la seguridad
+    - 🔁 `:repeat:` Cuando se actualizan dependencias
+    - ✅ `:white_check_mark:` Cuando un nuevo feature se implementa con exito a producción
+    - ❌ `:x:` Cuando se esta eliminando codigo o archivos.
+    - 🎉 `:tada:` commit inicial o terminacion de un grupo de modulo completo o una version nueva
+    - 🚧 `:construction:` cuando se esta contruyendo un feature o una tarea
+    - 🚀 `:rocket:` cuando se implementa un nuevo feature o tarea.
 
-### `yarn build` fails to minify
+Ejemplo:
+`git commit -m "[:heavy_plus_sign:] r.- add a UserResolver to. [:rocket:] f.- create a function createUser to use in graphQL"`
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+### Autor
+
+Desarrollo realizado por [BATUZAV](https://batuzav.com)
