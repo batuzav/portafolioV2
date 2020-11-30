@@ -5,32 +5,32 @@ const ServiceOb = [
     {
         icon: <FaJsSquare />,
         title: 'JavaScript',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Conocimiento profundo del lenguaje, y dominio completo de webpack, babel y DOM.'
     },
     {
         icon: <FaNodeJs />,
         title: 'NodeJS',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Creación de servidores REST/API para alimentar las aplicaciones. Con expressJS.'
     },
     {
         icon: <FaReact />,
         title: 'React',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Creación de páginas conectadas a APIS/REST. Rápidas y agradables a la vista.'
     },
     { 
         icon: <FaReact />,
         title: 'React Native',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Aplicaciones nativas, acompañadas con REDUX y EXPO.'
     },
     {
         icon: <FaSass />,
         title: 'Sass',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'CSS con super poderes para una mejor experiencia y detalle en las páginas web.'
     },
     { 
         icon: <FaWordpress />,
         title: 'WordPress',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'CMS para crear páginas rápidas, eCommerce de manera sencilla y APIS WooCommerce.'
     }
 ]
 

@@ -43,7 +43,7 @@ export const Employments = () => {
                                 <div className="col-lg-6">
                                     <div className="section-title service-style--3 text-left mb--15 mb_sm--0">
                                         <h2 className="title">Donde he trabajado</h2>
-                                        <p>Estas son las empresas en las he laborando de tiempo completo.</p>
+                                        <p>Estas son las empresas en las que he laborando de tiempo completo.</p>
                                     </div>
                                 </div>
                             </div>

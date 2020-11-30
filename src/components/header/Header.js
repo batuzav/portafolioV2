@@ -17,7 +17,7 @@ export const Header = () => {
                 break;
             case "market": 
                 e.preventDefault();
-                window.location.replace("/#market"); 
+                window.location.replace("/#proyectos"); 
                 break; 
             default:
                 break;
