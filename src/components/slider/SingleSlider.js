@@ -21,7 +21,7 @@ export const SingleSlider = () => {
                             <div className="row align-items-center">
                                 <div className="col-lg-5">
                                     <div className="designer-thumbnail">
-                                        <img src={require('../assets/índice.jpg')} alt="Slider Images"/>
+                                        <img src={require('../assets/indice.jpg')} alt="Slider Images"/>
                                     </div>
                                 </div>
                                 <div className="col-lg-7 mt_md--40 mt_sm--40">

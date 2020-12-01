@@ -5,67 +5,67 @@ import 'react-image-lightbox/style.css';
 
 const TabOne = [
     {
-        image: '01',
+        image: 'kaikoi',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-01.jpg`,
-        category: 'Páginas Web',
+        category: 'Páginas Web | Laravel',
         title: 'Kaikoi',
         url: "https://kaikoi.com"
     },
     {
-        image: '02',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-02.jpg`,
-        category: 'Páginas Web',
-        title: 'GyG Gestoria',
-        url: "http://gestoriagyg.com.mx/"
+        image: 'rebl',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-08.jpg`,
+        category: 'Páginas Web | React',
+        title: 'Rebl Challenge',
+        url: "https://batuzav.github.io/reblchange/",
     },
     {
-        image: '03',
+        image: 'mybl',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-03.jpg`,
-        category: 'Aplicación Móvil',
+        category: 'Aplicación Móvil | React Native',
         title: 'MyBL News',
         url: "https://play.google.com/store/apps/details?id=com.bodylogic.myblnews"
     },
     {
-        image: '04',
+        image: 'couper',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-04.jpg`,
-        category: 'Página Web',
+        category: 'Página Web | WordPress',
         title: 'Coupercnc',
         url: "https://coupercnc.com.mx/",
     },
     {
-        image: '05',
+        image: 'kaikoi',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-05.jpg`,
-        category: 'Aplicación Móvil',
+        category: 'Aplicación Móvil | React Native',
         title: 'Kaikoi App',
         url: "https://play.google.com/store/apps/details?id=com.sitiorandom.kaikoirandom"
     },
     {
-        image: '06',
+        image: 'esi',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-06.jpg`,
-        category: 'Páginas Web',
+        category: 'Páginas Web | WordPress',
         title: 'Incendies',
         url: "https://incendies.mx/"
     },
     {
-        image: '07',
+        image: 'sinergia',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-07.jpg`,
-        category: 'Páginas Web',
+        category: 'Páginas Web | React',
         title: 'Sinergia BodyLogic',
         url: "https://sinergia.bodylogicglobal.com/"
     },
     {
-        image: '08',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-08.jpg`,
-        category: 'Páginas Web',
-        title: 'Rebl Próximamente',
-        url: "",
+        image: 'gyg',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-02.jpg`,
+        category: 'Páginas Web | WordPress',
+        title: 'GyG Gestoria',
+        url: "http://gestoriagyg.com.mx/"
     },
     {
-        image: '09',
+        image: 'blit',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-09.jpg`,
-        category: 'Logo Designer',
-        title: 'Sinergia BodyLogic',
-        url: ""
+        category: 'Páginas Web | PHP',
+        title: 'BLIT Bodylogic global',
+        url: "http://blit.bodylogicglobal.com/"
     },
    
 ]
@@ -73,79 +73,72 @@ const TabOne = [
 
 const TabTwo = [
     {
-        image: '06',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-06.jpg`,
-        category: 'Logo Design',
-        title: 'Logo design is the main part for a designer'
-    },
-    {
-        image: '07',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-07.jpg`,
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '08',
+        image: 'rebl',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-08.jpg`,
-        category: 'App Landing',
-        title: 'Mobile App landign is a landing page design'
+        category: 'Páginas Web | React',
+        title: 'Rebl Challenge',
+        url: "https://batuzav.github.io/reblchange/",
     },
     {
-        image: '09',
+        image: 'kaikoi',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-01.jpg`,
+        category: 'Páginas Web | Laravel',
+        title: 'Kaikoi',
+        url: "https://kaikoi.com"
+    },
+    {
+        image: 'couper',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-04.jpg`,
+        category: 'Página Web | WordPress',
+        title: 'Coupercnc',
+        url: "https://coupercnc.com.mx/",
+    },
+    {
+        image: 'gyg',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-02.jpg`,
+        category: 'Páginas Web | WordPress',
+        title: 'GyG Gestoria',
+        url: "http://gestoriagyg.com.mx/"
+    },
+    {
+
+        image: 'esi',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-06.jpg`,
+        category: 'Páginas Web | WordPress',
+        title: 'Incendies',
+        url: "https://incendies.mx/"
+    },
+    {
+        image: 'sinergia',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-07.jpg`,
+        category: 'Páginas Web | React',
+        title: 'Sinergia BodyLogic',
+        url: "https://sinergia.bodylogicglobal.com/"
+    },
+    {
+        image: 'blit',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-09.jpg`,
-        category: 'Dasboard',
-        title: 'Dasboard design is the main part for data management'
-    },
-    {
-        image: '10',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-09.jpg`,
-        category: 'T-shirt Design',
-        title: 'T-shirt design is the popular design for digital market'
-    },
-    {
-        image: '11',
-        bigImage    : `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-11.jpg`,
-        category: 'Logo Designer',
-        title: 'Getting tickets to the big show'
+        category: 'Páginas Web',
+        title: 'BLIT Bodylogic global | PHP',
+        url: "http://blit.bodylogicglobal.com/"
     },
 ]
 
-const TabThree = [
+const TabThree = [ 
     {
-        image: '04',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-04.jpg`,
-        category: 'Mobile App',
-        title: 'Getting tickets to the big show'
+        image: 'mybl',
+        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-03.jpg`,
+        category: 'Aplicación Móvil | React Native',
+        title: 'MyBL News',
+        url: "https://play.google.com/store/apps/details?id=com.bodylogic.myblnews"
     },
+
     {
-        image: '05',
+        image: 'kaikoi',
         bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-05.jpg`,
-        category: 'Web Design',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '06',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-06.jpg`,
-        category: 'Logo Design',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '07',
-        bigImage: `${process.env.PUBLIC_URL}`,
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '08',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-08.jpg`,
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
-    },
-    {
-        image: '09',
-        bigImage: `${process.env.PUBLIC_URL}/assets/images/portafolio/big/dp-big--portfolio-09.jpg`,
-        category: 'Freelancer',
-        title: 'Getting tickets to the big show'
+        category: 'Aplicación Móvil | React Native',
+        title: 'Kaikoi App',
+        url: "https://play.google.com/store/apps/details?id=com.sitiorandom.kaikoirandom"
     },
 ]
 
@@ -203,8 +196,8 @@ export const TabsAll = ({column}) => {
                                     <div className="portfolio-static">
                                         <div className="thumbnail-inner">
                                             <div className="thumbnail">
-                                                <a href={`${value.url}`}>
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
+                                                <a target="_blank" href={`${value.url}`}>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/${value.image}.jpg`} alt="Portfolio Images"/>
                                                 </a>
                                             </div>
                                         </div>
@@ -212,9 +205,9 @@ export const TabsAll = ({column}) => {
                                             <div className="inner">
                                                 <p>{value.category}</p>
                                                 <h4>
-                                                    {/* <a href="#portfolio-details"> */}
+                                                    <a target="_blank" href={`${value.url}`}>
                                                         {value.title}
-                                                    {/* </a> */}
+                                                    </a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -253,18 +246,18 @@ export const TabsAll = ({column}) => {
                                     <div className="portfolio-static">
                                         <div className="thumbnail-inner">
                                             <div className="thumbnail">
-                                                {/* <a href="#portfolio-details"> */}
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
-                                                {/* </a> */}
+                                                <a target="_blank" href={`${value.url}`}>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/${value.image}.jpg`} alt="Portfolio Images"/>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="content">
                                             <div className="inner">
                                                 <p>{value.category}</p>
                                                 <h4>
-                                                    {/* <a href="#portfolio-details"> */}
+                                                    <a target="_blank" href={`${value.url}`}>
                                                         {value.title}
-                                                    {/* </a> */}
+                                                    </a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -303,18 +296,18 @@ export const TabsAll = ({column}) => {
                                     <div className="portfolio-static">
                                         <div className="thumbnail-inner">
                                             <div className="thumbnail">
-                                                {/* <a href="#portfolio-details"> */}
-                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/dp-portfolio-${value.image}.jpg`} alt="Portfolio Images"/>
-                                                {/* </a> */}
+                                                <a target="_blank" href={`${value.url}`}>
+                                                    <img src={process.env.PUBLIC_URL + `/assets/images/portafolio/${value.image}.jpg`} alt="Portfolio Images"/>
+                                                </a>
                                             </div>
                                         </div>
                                         <div className="content">
                                             <div className="inner">
                                                 <p>{value.category}</p>
                                                 <h4>
-                                                    {/* <a href="#portfolio-details"> */}
+                                                    <a target="_blank" href={`${value.url}`}>
                                                         {value.title}
-                                                    {/* </a> */}
+                                                    </a>
                                                 </h4>
                                             </div>
                                         </div>

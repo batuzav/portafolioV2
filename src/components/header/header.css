@@ -1,8 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Work+Sans&display=swap");
-body {
-  margin: 0 20px;
-}
+
 .pie {
   -webkit-tap-highlight-color: transparent;
   background: #000;
